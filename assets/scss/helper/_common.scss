@@ -1,0 +1,25 @@
+body{
+    font-family: $roboto;
+    background-color: $white;
+}
+
+nav{
+    ul{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 40px 0;
+        li{
+            &.active{
+                a{
+                    font-weight: $med;
+                }
+            }
+            a{
+                font-family: $poppins;
+                padding: 0 30px !important;
+                font-weight: $light;
+            }
+        }
+    }
+}
